@@ -1,0 +1,24 @@
+{
+  "name": "filmswithdb",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "hb": "^0.0.0",
+    "mysql2": "^3.6.5",
+    "nodemon": "^3.0.1",
+    "pg-promise": "^11.5.4",
+    "postgres": "^3.4.3",
+    "sequelize": "^6.35.1",
+    "sqlite3": "^5.1.6"
+  }
+}
